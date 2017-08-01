@@ -1,0 +1,68 @@
+html, body {
+  background-color: honeydew;
+}
+
+.eventInfo {
+  border: 1px solid black;
+  border-radius: 1.5%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.month-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.select-menu {
+  min-width: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+#url {
+  width: 175px;
+}
+
+#dateAndTime {
+  top: 250px;
+  left: 350px;
+  position: absolute;
+}
+
+table.calendar, th.calendar, td.calendar {
+  border: 1px solid rgb(184, 200, 119);
+  border-collapse: collapse;
+  background-color: honeydew;
+}
+
+.calendar {
+  width: 98vw;
+  height: 80vh;
+}
+
+th, td {
+  padding: 15px;
+}
+
+td {
+  text-align: right;
+  height: 85px;
+  vertical-align: top;
+}
+
+th {
+  background-color: #4b964e;
+  color: black;
+}
